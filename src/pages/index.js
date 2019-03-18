@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "gatsby";
-import Particles from "react-particles-js";
+import React from 'react'
+import { Link } from 'gatsby'
+import Particles from 'react-particles-js'
 
-import Layout from "../components/layout";
-import Image from "../components/image";
-import SEO from "../components/seo";
+import Layout from '../components/layout'
+import Image from '../components/image'
+import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
@@ -26,7 +26,7 @@ const IndexPage = () => (
             value: '#000000'
           },
           shape: {
-            type: "circle",
+            type: 'circle',
             stroke: {
               width: 0,
               color: '#000000'
@@ -35,7 +35,7 @@ const IndexPage = () => (
               nb_sides: 5
             },
             image: {
-              src: "",
+              src: '',
               width: 100,
               height: 100
             }
@@ -63,17 +63,17 @@ const IndexPage = () => (
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#000000",
+            color: '#000000',
             opacity: 0.4,
             width: 1
           },
           move: {
             enable: true,
             speed: 6,
-            direction: "none",
+            direction: 'none',
             random: false,
             straight: false,
-            out_mode: "out",
+            out_mode: 'out',
             bounce: false,
             attract: {
               enable: false,
@@ -83,15 +83,15 @@ const IndexPage = () => (
           }
         },
         interactivity: {
-          detect_on: "canvas",
+          detect_on: 'canvas',
           events: {
             onhover: {
               enable: false,
-              mode: "grab"
+              mode: 'grab'
             },
             onclick: {
               enable: true,
-              mode: "push"
+              mode: 'push'
             },
             resize: true
           },
@@ -129,6 +129,6 @@ const IndexPage = () => (
     </div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage
